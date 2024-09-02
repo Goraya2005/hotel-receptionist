@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hotel-receptionist"
+version = "0.1.0"
+description = "A Hotel Receptienist RAG Application using Gemini"
+authors = ["goraya2005 <goraya2005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.2.37"
+langchain-community = "^0.2.15"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^1.0.10"
+langchainhub = "^0.1.21"
+langchain-chroma = "^0.1.3"
+faiss-cpu = "^1.8.0.post1"
+langchain-google-vertexai = "^1.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
